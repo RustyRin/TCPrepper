@@ -16,10 +16,8 @@ with open('twitch_clientID.txt') as f:
     twitch_clientID = f.readline().rstrip()
 
 client = TwitchHelix(client_id=twitch_clientID)
-#print((datetime.now()-timedelta(days=1)).strftime('%Y-%m-%d-T00:00:00Z'))
 yesterday_date = (datetime.now()-timedelta(days=1)).strftime('%Y-%m-%dT00:00:00Z')
 clip_iterator = client.get_clips(game_id='488552', started_at=yesterday_date)
-#streams_iterator = client.get_streams(page_size=100)
 for x in islice(clip_iterator, 0, 1):
     print('---------------------------------------')
     print('Twitch Channel: ' + x.broadcaster_name)
