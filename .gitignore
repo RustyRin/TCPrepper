@@ -1,3 +1,7 @@
+download/
+notes
+twitch_clientID.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
