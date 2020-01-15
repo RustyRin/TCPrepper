@@ -1,4 +1,4 @@
-# VPrepper
+# TCPrepper
 Helps automate the editing process of Twitch clip YouTube channels by offloading repetitive tasks
 
 For the time being, the python-twitch-client api still doesn't support some new parameters from Twitch. So to automatically download the top clips of the day you are going to have to edit the api.
@@ -58,4 +58,4 @@ params = {
 - [ ] Clean up program
 - [ ] Actually use functions
 - [ ] Allow parts or all of the overlay to fade away over time
-- [ ] Concatenate export into one long video 
+- [ ] Concatenate export into one long video
