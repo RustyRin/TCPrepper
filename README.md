@@ -59,3 +59,4 @@ params = {
 - [ ] Actually use functions
 - [ ] Allow parts or all of the overlay to fade away over time
 - [ ] Concatenate export into one long video
+- [ ] Add CJK text support for the overlay
